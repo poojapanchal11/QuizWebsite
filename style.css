@@ -1,0 +1,13 @@
+/**/
+*{padding: 0;margin: 0;}
+.body{padding: 0;margin: 0;}
+#wrapper{border:solid;padding: 10px;}
+#header{height: 40px; background-color: #6b6363;padding: 10px;}
+#logo{width: 250px;height: 40px;background-color:#6b6363; }
+#navbar{height: 50px;background-color: #98d13c;margin-top: 10px;}
+#container{ margin-top: 10px;}
+#container::after{content:"";display: block;clear: both;}
+#left-panel{width: 15%; height: 400px; background-color: #827878;float: left;}
+#right-section{width: 84.5%; height: 400px; background-color: #596572;float: right;}
+#footer{height: 200px;background-color: #6b6363;margin-top: 10px;}
+.contain{margin-left: 20px;}
